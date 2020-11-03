@@ -22,16 +22,16 @@ test('multiple by 5 should print Buzz', () => {
   expect(result).toEqual("Buzz");
 })
 
-test('multiple by 15 should print FizzBuzz', () => {
-  // Arrange
-  let number = 15
+// test('multiple by 15 should print FizzBuzz', () => {
+//   // Arrange
+//   let number = 15
 
-  // Act
-  let result = fizzbuzz(number)
+//   // Act
+//   let result = fizzbuzz(number)
 
-  // Assert
-  expect(result).toEqual("FizzBuzz");
-})
+//   // Assert
+//   expect(result).toEqual("FizzBuzz");
+// })
 
 test('multiple by 2 should print 2', () => {
   // Arrange
