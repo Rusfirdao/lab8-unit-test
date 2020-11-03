@@ -27,5 +27,5 @@ test('1 bath to equal $0.30 call from api', () => {
   // 1 bath --> 0.03 dollar
 
   // Assert
-  expect("$0.03").toBe(result);
+  expect("$0.01").toBe(result);
 })
